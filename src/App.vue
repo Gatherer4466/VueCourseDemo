@@ -52,7 +52,7 @@ function prevStep() {
 
 <template>
   <div class="container py-5">
-    <h2 class="text-center mb-4 fw-bold">Vue Tutorial Explorer</h2>
+    <h2 class="text-center mb-4 fw-bold">Vue Kursus Resultater</h2>
 
     <div class="d-flex justify-content-center gap-2 mb-4 flex-wrap">
       <button
@@ -83,7 +83,7 @@ function prevStep() {
 
         <div class="d-flex justify-content-end mb-2">
           <button class="btn btn-sm btn-outline-dark" @click="showCode = !showCode">
-            {{ showCode ? 'Hide Code' : 'Show Code' }}
+            {{ showCode ? 'Gem Kode' : 'Vis Kode' }}
           </button>
         </div>
 
