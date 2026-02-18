@@ -81,6 +81,15 @@ function prevStep() {
 
         <hr />
 
+        <a
+          :href="`https://vuejs.org/tutorial/#step-${currentStep + 2}`"
+          target="_blank"
+          rel="noopener"
+          class="text-muted text-decoration-none"
+        >
+          Se de officielle instrukser, for dette step.
+        </a>
+
         <div class="d-flex justify-content-end mb-2">
           <button class="btn btn-sm btn-outline-dark" @click="showCode = !showCode">
             {{ showCode ? 'Gem Kode' : 'Vis Kode' }}
