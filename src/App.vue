@@ -100,7 +100,7 @@ function prevStep() {
 
         <div class="d-flex justify-content-between mt-4">
           <button class="btn btn-outline-secondary" @click="prevStep" :disabled="currentStep === 0">
-            Previous
+            Tilbage
           </button>
 
           <button
@@ -108,7 +108,7 @@ function prevStep() {
             @click="nextStep"
             :disabled="currentStep === steps.length - 1"
           >
-            Next
+            Næste
           </button>
         </div>
       </div>
