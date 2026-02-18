@@ -92,7 +92,7 @@ function prevStep() {
 
         <div class="d-flex justify-content-end mb-2">
           <button class="btn btn-sm btn-outline-dark" @click="showCode = !showCode">
-            {{ showCode ? 'Gem Kode' : 'Vis Kode' }}
+            {{ showCode ? 'Skjul Kode' : 'Vis Kode' }}
           </button>
         </div>
 
